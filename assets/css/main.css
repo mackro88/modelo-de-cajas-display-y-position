@@ -1,6 +1,85 @@
 @charset "UTF-8";
 /* Desafíos Styles Import */
+/* Base */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif; }
+
+/* Mixins */
 /* Index Styles */
+.home-header {
+  margin: 10rem 0rem; }
+  .home-header h1 {
+    color: dimgrey;
+    text-align: center; }
+  .home-header h2 {
+    color: gray;
+    text-align: center; }
+
+.home-main {
+  width: 606px;
+  margin: auto;
+  position: relative;
+  background-color: white; }
+  .home-main .home-btn {
+    padding: 4rem;
+    box-sizing: border-box;
+    width: 200px;
+    height: 160px;
+    background-color: yellowgreen;
+    float: left;
+    text-align: center;
+    border: 1px solid white;
+    color: #0c3804; }
+    .home-main .home-btn:hover {
+      background-color: rgba(153, 205, 50, 0.514); }
+
+/* Desafío_1 Styles */
+.desafio1-header {
+  margin: 0;
+  padding-top: 2rem;
+  border-bottom: 1px dashed palevioletred; }
+  .desafio1-header h1 {
+    text-align: center;
+    margin: 2rem 0 5rem 0;
+    color: palevioletred; }
+  .desafio1-header a {
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple; }
+    .desafio1-header a:hover {
+      color: white; }
+    .desafio1-header a:hover {
+      background-color: rebeccapurple; }
+
+.navbar {
+  background-color: green;
+  padding: 5px; }
+  .navbar p {
+    line-height: 1.5;
+    text-align: left; }
+
+.main {
+  margin: 5px;
+  height: auto;
+  position: absolute; }
+  .main p {
+    line-height: 1.5;
+    text-align: left; }
+
+.box {
+  height: auto;
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding: 5px;
+  text-align: center; }
+
 /* Desafío_1 Styles */
 /* Desafío_2 Styles */
 /* Desafío_3 Styles */

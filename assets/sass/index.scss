@@ -1,1 +1,114 @@
+/* Base */
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+/* Mixins */
+@mixin desafio-header{
+    margin: 0;
+    padding-top: 2rem;
+}
+@mixin h1-header{
+    text-align: center;
+    margin: 2rem 0 5rem 0;
+}
+@mixin volver{
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    
+    &:hover{
+        color: white;
+    }
+
+}
 /* Index Styles */
+.home-header{
+    margin: 10rem 0rem;
+    
+    h1{
+        color: dimgrey;
+        text-align: center;
+    }
+    h2{
+        color: gray;
+        text-align: center;
+    }
+}
+
+.home-main{
+    width: 606px;
+    margin: auto;
+    position: relative;
+    background-color: white;
+    
+    .home-btn{
+        padding: 4rem;
+        box-sizing: border-box;
+        width: 200px;
+        height: 160px;
+        background-color:yellowgreen;
+        float: left;
+        text-align: center;
+        border: 1px solid white;
+        color: rgb(12, 56, 4);
+        
+        &:hover{
+            background-color:rgba(153, 205, 50, 0.514);
+        }
+    }
+    
+}
+
+/* Desafío_1 Styles */
+@mixin p_1{
+    line-height: 1.5;
+    text-align: left;
+}
+.desafio1-header{
+    @include desafio-header;
+    border-bottom: 1px dashed palevioletred;
+    
+    h1{
+        @include h1-header;
+        color: palevioletred;
+    }
+    
+    a{
+        @include volver;
+        color: rebeccapurple;
+        border: 1px solid rebeccapurple;
+
+        &:hover{
+            background-color: rebeccapurple;
+        }
+    }
+}
+.navbar{
+    background-color: green;
+    padding: 5px;
+    
+    p{
+        @include p_1;
+    }
+}
+.main{
+    margin: 5px;
+    height: auto;
+    position: absolute;
+    
+    p{
+        @include p_1;
+    }
+}
+.box{
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 5px;
+    text-align: center;
+}
