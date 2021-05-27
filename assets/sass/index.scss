@@ -16,8 +16,8 @@ body{
     margin: 2rem 0 5rem 0;
 }
 @mixin volver{
-    margin: 2rem;
-    padding: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
     text-decoration: none;
     
     &:hover{
@@ -61,54 +61,4 @@ body{
         }
     }
     
-}
-
-/* Desafío_1 Styles */
-@mixin p_1{
-    line-height: 1.5;
-    text-align: left;
-}
-.desafio1-header{
-    @include desafio-header;
-    border-bottom: 1px dashed palevioletred;
-    
-    h1{
-        @include h1-header;
-        color: palevioletred;
-    }
-    
-    a{
-        @include volver;
-        color: rebeccapurple;
-        border: 1px solid rebeccapurple;
-
-        &:hover{
-            background-color: rebeccapurple;
-        }
-    }
-}
-.navbar{
-    background-color: green;
-    padding: 5px;
-    
-    p{
-        @include p_1;
-    }
-}
-.main{
-    margin: 5px;
-    height: auto;
-    position: absolute;
-    
-    p{
-        @include p_1;
-    }
-}
-.box{
-    height: auto;
-    box-sizing: border-box;
-    float: left;
-    width: 25%;
-    padding: 5px;
-    text-align: center;
 }
