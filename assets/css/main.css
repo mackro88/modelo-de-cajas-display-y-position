@@ -81,6 +81,57 @@ body {
   text-align: center; }
 
 /* Desafío_2 Styles */
+.desafio2-header {
+  margin: 0;
+  padding-top: 2rem;
+  border-bottom: 1px dashed palevioletred; }
+  .desafio2-header h1 {
+    text-align: center;
+    margin: 2rem 0 5rem 0;
+    color: palevioletred; }
+  .desafio2-header a {
+    margin: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple; }
+    .desafio2-header a:hover {
+      color: white; }
+    .desafio2-header a:hover {
+      background-color: rebeccapurple; }
+
+.content__square {
+  position: relative;
+  display: block;
+  margin: 5rem; }
+  .content__square span {
+    position: absolute;
+    left: 15rem;
+    margin: 6rem;
+    font-size: 1.8rem; }
+  .content__square .square {
+    height: 200px;
+    width: 200px; }
+    .content__square .square__red {
+      background-color: rgba(255, 0, 0, 0.5); }
+    .content__square .square__green {
+      background-color: rgba(0, 255, 0, 0.5);
+      left: 25px;
+      position: absolute;
+      top: 25px; }
+    .content__square .square__blue {
+      background-color: rgba(0, 0, 255, 0.5);
+      left: 50px;
+      position: absolute;
+      top: 50px; }
+    .content__square .square.detras {
+      z-index: 1; }
+    .content__square .square.medio {
+      z-index: 2; }
+    .content__square .square.delante {
+      z-index: 3;
+      position: absolute; }
+
 /* Desafío_3 Styles */
 /* Desafío_4 Styles */
 /* Desafío_5 Styles */
