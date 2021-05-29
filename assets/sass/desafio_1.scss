@@ -3,25 +3,6 @@
     line-height: 1.5;
     text-align: left;
 }
-.desafio1-header{
-    @include desafio-header;
-    border-bottom: 1px dashed palevioletred;
-    
-    h1{
-        @include h1-header;
-        color: palevioletred;
-    }
-    
-    a{
-        @include volver;
-        color: rebeccapurple;
-        border: 1px solid rebeccapurple;
-
-        &:hover{
-            background-color: rebeccapurple;
-        }
-    }
-}
 .navbar{
     background-color: green;
     padding: 5px;

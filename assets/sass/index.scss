@@ -6,24 +6,29 @@ body{
     height: 100%;
     font-family: Arial, Helvetica, sans-serif; 
 } 
-/* Mixins */
-@mixin desafio-header{
+.desafio-header{
     margin: 0;
     padding-top: 2rem;
-}
-@mixin h1-header{
-    text-align: center;
-    margin: 2rem 0 5rem 0;
-}
-@mixin volver{
-    margin: 1rem;
-    padding: 0.5rem;
-    text-decoration: none;
+    border-bottom: 1px dashed palevioletred;
     
-    &:hover{
-        color: white;
+    h1{
+        text-align: center;
+        margin: 2rem 0 5rem 0;
+        color: palevioletred;
     }
+    
+    a{
+        margin: 1rem;
+        padding: 0.5rem;
+        text-decoration: none;
+        color: rebeccapurple;
+        border: 1px solid rebeccapurple;
 
+        &:hover{
+            background-color: rebeccapurple;
+            color: white;
+        }
+    }
 }
 /* Index Styles */
 .home-header{

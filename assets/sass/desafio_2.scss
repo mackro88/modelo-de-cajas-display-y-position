@@ -1,27 +1,11 @@
 /* Desafío_2 Styles */
-.desafio2-header{
-    @include desafio-header;
-    border-bottom: 1px dashed palevioletred;
-    
-    h1{
-        @include h1-header;
-        color: palevioletred;
-    }
-    
-    a{
-        @include volver;
-        color: rebeccapurple;
-        border: 1px solid rebeccapurple;
-
-        &:hover{
-            background-color: rebeccapurple;
-        }
-    }
-}
 .content__square{
     position: relative;
     display: block;
-    margin: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    width: 600px;
     
     span{
         position: absolute;

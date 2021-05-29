@@ -8,7 +8,24 @@ body {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif; }
 
-/* Mixins */
+.desafio-header {
+  margin: 0;
+  padding-top: 2rem;
+  border-bottom: 1px dashed palevioletred; }
+  .desafio-header h1 {
+    text-align: center;
+    margin: 2rem 0 5rem 0;
+    color: palevioletred; }
+  .desafio-header a {
+    margin: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple; }
+    .desafio-header a:hover {
+      background-color: rebeccapurple;
+      color: white; }
+
 /* Index Styles */
 .home-header {
   margin: 10rem 0rem; }
@@ -38,25 +55,6 @@ body {
       background-color: rgba(153, 205, 50, 0.514); }
 
 /* Desafío_1 Styles */
-.desafio1-header {
-  margin: 0;
-  padding-top: 2rem;
-  border-bottom: 1px dashed palevioletred; }
-  .desafio1-header h1 {
-    text-align: center;
-    margin: 2rem 0 5rem 0;
-    color: palevioletred; }
-  .desafio1-header a {
-    margin: 1rem;
-    padding: 0.5rem;
-    text-decoration: none;
-    color: rebeccapurple;
-    border: 1px solid rebeccapurple; }
-    .desafio1-header a:hover {
-      color: white; }
-    .desafio1-header a:hover {
-      background-color: rebeccapurple; }
-
 .navbar {
   background-color: green;
   padding: 5px; }
@@ -81,29 +79,13 @@ body {
   text-align: center; }
 
 /* Desafío_2 Styles */
-.desafio2-header {
-  margin: 0;
-  padding-top: 2rem;
-  border-bottom: 1px dashed palevioletred; }
-  .desafio2-header h1 {
-    text-align: center;
-    margin: 2rem 0 5rem 0;
-    color: palevioletred; }
-  .desafio2-header a {
-    margin: 1rem;
-    padding: 0.5rem;
-    text-decoration: none;
-    color: rebeccapurple;
-    border: 1px solid rebeccapurple; }
-    .desafio2-header a:hover {
-      color: white; }
-    .desafio2-header a:hover {
-      background-color: rebeccapurple; }
-
 .content__square {
   position: relative;
   display: block;
-  margin: 5rem; }
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  width: 600px; }
   .content__square span {
     position: absolute;
     left: 15rem;
@@ -133,6 +115,82 @@ body {
       position: absolute; }
 
 /* Desafío_3 Styles */
+.contenedor-banderas {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  width: 800px; }
+  .contenedor-banderas .bandera {
+    width: 330px;
+    height: 214px;
+    position: relative;
+    display: inline-block;
+    margin: 3rem 1rem;
+    border: 1px solid gray;
+    /* España */
+    /* Dinamarca */
+    /* Emiratos Árabes */
+    /* Japón */ }
+    .contenedor-banderas .bandera__nombre {
+      margin: 2rem 0;
+      text-align: center;
+      font-size: 1.8rem; }
+    .contenedor-banderas .bandera__esp-rojo {
+      background-color: red;
+      height: 60px;
+      width: 100%; }
+    .contenedor-banderas .bandera__esp-amarillo {
+      background-color: #ffe600;
+      height: 94px;
+      width: 100%; }
+    .contenedor-banderas .bandera__din-rojo {
+      height: 94px;
+      background-color: red;
+      width: 100%;
+      position: relative; }
+      .contenedor-banderas .bandera__din-rojo .blanco-vertical {
+        background-color: white;
+        width: 26px;
+        position: absolute;
+        z-index: 2;
+        height: 100%;
+        left: 94px; }
+    .contenedor-banderas .bandera__din-centro {
+      background-color: white;
+      width: 100%;
+      height: 26px;
+      position: relative; }
+    .contenedor-banderas .bandera__ea-vertical {
+      width: 80px;
+      height: 100%;
+      position: absolute;
+      background-color: red;
+      z-index: 2; }
+    .contenedor-banderas .bandera__ea-horizontal {
+      height: 71px;
+      width: 100%;
+      position: relative; }
+      .contenedor-banderas .bandera__ea-horizontal.verde {
+        background-color: green; }
+      .contenedor-banderas .bandera__ea-horizontal.blanco {
+        background-color: white;
+        height: 72px; }
+      .contenedor-banderas .bandera__ea-horizontal.negro {
+        background-color: black; }
+    .contenedor-banderas .bandera__jap-blanco {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background-color: white; }
+    .contenedor-banderas .bandera__jap-rojo {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      background-color: red;
+      border-radius: 100%;
+      left: calc(50% - 50px);
+      top: calc(50% - 50px); }
+
 /* Desafío_4 Styles */
 /* Desafío_5 Styles */
 /* Desafío_6 Styles */
