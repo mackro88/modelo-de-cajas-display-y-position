@@ -1,1 +1,78 @@
 /* Desafío_9 Styles */
+.r-content{
+    margin: 0;
+    padding: 0;
+    
+    h1 {
+        font-weight: lighter;
+        font-size: 24px;
+        
+    }
+    
+    h2{
+        font-weight: lighter;
+        font-size: 22px;
+    }
+    
+    .r-title{
+        background: black;
+        color: white;
+        margin: 0;
+        padding: 1px 20px;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .r-centro{
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+    
+    .r-menu{
+        width: 350px;
+        height: 100%;
+        margin: 0;
+        background: gainsboro;
+        position: absolute;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        
+        a{
+            text-decoration: none;
+            color: cornflowerblue;
+            
+            &:hover{
+                color: rgb(48, 89, 165);
+            }
+        }
+        
+        li{
+            margin: 5px;
+        }
+    }
+    
+    .r-info{
+        width: calc(100% - 350px);
+        height: auto;
+        left: 350px;
+        background: white;
+        position: relative;
+        box-sizing: border-box;
+        padding: 10px 20px;
+    }
+    
+    .r-copyright{
+        width: 100%;
+        color: white;
+        background: grey;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        float: left;
+        font-weight: lighter;
+        font-size: small;
+    }
+}

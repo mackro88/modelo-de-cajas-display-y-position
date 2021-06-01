@@ -270,5 +270,60 @@ body {
     el espacio blanco bajo el menú, por eso utilicé float, ¿está bien? */ }
 
 /* Desafío_9 Styles */
+.r-content {
+  margin: 0;
+  padding: 0; }
+  .r-content h1 {
+    font-weight: lighter;
+    font-size: 24px; }
+  .r-content h2 {
+    font-weight: lighter;
+    font-size: 22px; }
+  .r-content .r-title {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 1px 20px;
+    position: relative;
+    box-sizing: border-box; }
+  .r-content .r-centro {
+    height: 100%;
+    position: relative;
+    width: 100%; }
+  .r-content .r-menu {
+    width: 350px;
+    height: 100%;
+    margin: 0;
+    background: gainsboro;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px 20px; }
+    .r-content .r-menu a {
+      text-decoration: none;
+      color: cornflowerblue; }
+      .r-content .r-menu a:hover {
+        color: #3059a5; }
+    .r-content .r-menu li {
+      margin: 5px; }
+  .r-content .r-info {
+    width: calc(100% - 350px);
+    height: auto;
+    left: 350px;
+    background: white;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px 20px; }
+  .r-content .r-copyright {
+    width: 100%;
+    color: white;
+    background: grey;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    float: left;
+    font-weight: lighter;
+    font-size: small; }
 
 /*# sourceMappingURL=main.css.map */
