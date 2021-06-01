@@ -1,1 +1,11 @@
 /* Desafío_7 Styles */
+
+.awwwards-icono{
+    position: absolute;
+    right: 0vw;
+    margin-top: 0vh;
+    
+    /* No lo pegué en la esquina superior derecha del navegador 
+    para respetar el formato que le di a todas las páginas, 
+    pero sería con "top: 0vh;" en vez de "margin-top: 0vh;" */
+}
