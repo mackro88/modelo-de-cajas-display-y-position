@@ -218,6 +218,22 @@ body {
       z-index: 2; }
 
 /* Desafío_6 Styles */
+.ribbon-despacho {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px;
+  height: 258px; }
+  .ribbon-despacho img {
+    position: absolute; }
+    .ribbon-despacho img.ribbon-icono {
+      z-index: 2;
+      position: absolute;
+      right: 13px;
+      bottom: 59px;
+      width: 53px;
+      height: 48px; }
+
 /* Desafío_7 Styles */
 /* Desafío_8 Styles */
 /* Desafío_9 Styles */
