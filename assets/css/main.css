@@ -192,7 +192,31 @@ body {
       top: calc(50% - 50px); }
 
 /* Desafío_4 Styles */
+.desafio4-main {
+  width: 900px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
+  .desafio4-main .main {
+    background-color: #B0CCAB;
+    padding: 50px; }
+    .desafio4-main .main__paragraph {
+      left: 40px;
+      position: relative; }
+
 /* Desafío_5 Styles */
+.ribbon-content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto; }
+  .ribbon-content img {
+    position: absolute; }
+    .ribbon-content img.ribbon {
+      z-index: 2; }
+
 /* Desafío_6 Styles */
 /* Desafío_7 Styles */
 /* Desafío_8 Styles */
