@@ -1,1 +1,36 @@
 /* Desafío_8 Styles */
+
+.item-content{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+    ul.menu{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+        li{
+            background: olive;
+            box-sizing: border-box;
+            float: left;
+            width: 25%;
+            
+            a{
+                color: #fff;
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                
+                &:hover{
+                    background: #000;
+                }
+            }
+        }
+    }
+    p{
+        float: left;
+        /* En el documento dice ocupar "clear" pero no me generaba 
+        el espacio blanco bajo el menú, por eso utilicé float, ¿está bien? */
+    }
+}
